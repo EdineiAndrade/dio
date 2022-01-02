@@ -4,17 +4,30 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.srelogio {
+    align-items: left;   
+    margin: 10px;
+
+
+}
 body {
-    display: flex;
+    display:flex ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(1, 8, 14);
     color:rgb(70, 252, 15);
     padding-bottom: 50px;
-    margin: 50px;
+    margin: 30px;
 }
-
+#relogio{
+    justify-content: left;
+    text-align: left;
+    color:rgb(70, 252, 15);
+    display:grid;
+    padding-left: 10px;
+    font-weight: bold;
+}
 h1{
     padding-bottom: 50px;
 }
